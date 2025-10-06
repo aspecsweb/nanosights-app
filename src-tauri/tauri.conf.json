@@ -31,6 +31,15 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "createUpdaterArtifacts": true
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDM3MzczN0ExNTI2RjU2OUYKUldTZlZtOVNvVGMzTjdpNEQrWE1mUTVzLzhSU2tVWi9hZzkwRDd6ejljYnY5cmgwZWYrbjdNeGgK",
+      "endpoints": [
+        "https://github.com/aspecsweb/nanosights-app/releases/latest/download/latest.json"
+      ]
+    }
   }
 }

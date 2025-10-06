@@ -1,20 +1,21 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "nanosights-app",
+  "productName": "NanoSights",
   "version": "0.1.0",
   "identifier": "dev.nanosights.app",
   "build": {
     "beforeDevCommand": "npm run dev",
-    "devUrl": "http://localhost:1420",
+    "devUrl": "https://www.nanosights.dev/sign-in",
     "beforeBuildCommand": "npm run build",
-    "frontendDist": "../dist"
+    "frontendDist": "https://www.nanosights.dev/sign-in"
   },
   "app": {
     "windows": [
       {
-        "title": "nanosights-app",
-        "width": 800,
-        "height": 600
+        "title": "NanoSights",
+        "width": 1200,
+        "height": 800,
+        "resizable": true
       }
     ],
     "security": {
